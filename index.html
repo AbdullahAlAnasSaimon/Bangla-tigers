@@ -27,104 +27,110 @@
   <main>
     <!-- card section start -->
     <section class="mt-16 w-11/12 mx-auto bg-gray-100">
-      <div class="grid grid-cols-4 gap-5 p-4">
-        <!-- card 1 -->
-        <div class="border-2">
-          <div class="bg-white">
-            <img class="h-56" src="images/201.png" alt="">
-          </div>
-          <div class="text-center">
-            <h3 class="text-xl font-semibold mt-2">Shakib Al Hasan</h3>
-            <p class="text-sm mt-2 text-gray-600">150 Match <span>•</span> 5000 Runs </p>
-            <button class="bg-green-500 hover:bg-green-600 py-1 font-semibold text-white my-4 w-2/3">SELECT</button>
-          </div>
-        </div>
-        <!-- card 2 -->
-        <div class="border-2">
-          <div class="bg-white">
-            <img class="h-56" src="images/287.png" alt="">
-          </div>
-          <div class="text-center">
-            <h3 class="text-xl font-semibold mt-2">Tamim Iqbal</h3>
-            <p class="text-sm mt-2 text-gray-600">150 Match <span>•</span> 5000 Runs </p>
-            <button class="bg-green-500 hover:bg-green-600 py-1 font-semibold text-white my-4 w-2/3">SELECT</button>
-          </div>
-        </div>
-        <!-- card 3 -->
-        <div class="border-2">
-          <div class="bg-white">
-            <img class="h-56" src="images/491.png" alt="">
-          </div>
-          <div class="text-center">
-            <h3 class="text-xl font-semibold mt-2">Mushfiqur Rahim</h3>
-            <p class="text-sm mt-2 text-gray-600">150 Match <span>•</span> 5000 Runs </p>
-            <button class="bg-green-500 hover:bg-green-600 py-1 font-semibold text-white my-4 w-2/3">SELECT</button>
-          </div>
-        </div>
-        <!-- selected 5 -->
-        <div class="bg-gray-300 p-4">
-          <h3 class="text-2xl text-center font-semibold">Selected - V</h3>
-          <ol class="w-4/5 mx-auto text-lg font-semibold mt-8">
-            <li class="list-decimal my-2">Shakib Al Hasan</li>
-            <li class="list-decimal my-2">Shakib Al Hasan</li>
-            <li class="list-decimal my-2">Shakib Al Hasan</li>
-          </ol>
-        </div>
-        <!-- card 4 -->
-        <div class="border-2">
-          <div class="bg-white">
-            <img class="h-56" src="images/492.png" alt="">
-          </div>
-          <div class="text-center">
-            <h3 class="text-xl font-semibold mt-2">Mahmudullah Riyad</h3>
-            <p class="text-sm mt-2 text-gray-600">150 Match <span>•</span> 5000 Runs </p>
-            <button class="bg-green-500 hover:bg-green-600 py-1 font-semibold text-white my-4 w-2/3">SELECT</button>
-          </div>
-        </div>
-        <!-- card 2 -->
-        <div class="border-2">
-          <div class="bg-white">
-            <img class="h-56" src="images/1594.png" alt="">
-          </div>
-          <div class="text-center">
-            <h3 class="text-xl font-semibold mt-2">Mustafizur Rahman</h3>
-            <p class="text-sm mt-2 text-gray-600">150 Match <span>•</span> 5000 Runs </p>
-            <button class="bg-green-500 hover:bg-green-600 py-1 font-semibold text-white my-4 w-2/3">SELECT</button>
-          </div>
-        </div>
-        <!-- card 3 -->
-        <div class="border-2">
-          <div class="bg-white">
-            <img class="h-56" src="images/1596.png" alt="">
-          </div>
-          <div class="text-center">
-            <h3 class="text-xl font-semibold mt-2">Liton Das</h3>
-            <p class="text-sm mt-2 text-gray-600">150 Match <span>•</span> 5000 Runs </p>
-            <button class="bg-green-500 hover:bg-green-600 py-1 font-semibold text-white my-4 w-2/3">SELECT</button>
-          </div>
-        </div>
-        <!-- selected 5 -->
-        <div class="bg-gray-300 p-4">
-          <h3 class="text-2xl text-center font-semibold">Budget</h3>
-          <div class="mt-4">
-            <label for="" class="w-2/5 float-left text-lg font-semibold text-gray-600">Per Player</label>
-            <input type="text" class="w-3/5 float-right	py-1">
-            <button class="bg-green-500 hover:bg-green-600 text-white w-full text-xl my-4 py-1 font-semibold">Calculate</button>
-          </div>
-          <div>
-            <p class="text-lg font-semibold text-gray-600">Player Expenses <span>$</span><span>0</span></p>
-            <div class="my-4">
-              <label for="" class="w-2/5 float-left text-lg font-semibold text-gray-600">Manager</label>
-              <input type="text" class="w-3/5 float-right	py-1">
+      <h2 class="text-center text-gray-600 text-3xl font-bold py-8">Select Your Best Five</h2>
+      <div class="flex">
+        <div class="grid grid-cols-3 gap-5 p-4 w-9/12">
+          <!-- card 1 -->
+          <div class="border-2">
+            <div class="bg-white">
+              <img class="h-56" src="images/201.png" alt="">
             </div>
-            <div class="my-4">
-              <label for="" class="w-2/5 float-left text-lg font-semibold text-gray-600">Coach</label>
-              <input type="text" class="w-3/5 float-right	py-1">
+            <div class="text-center">
+              <h3 class="text-xl font-semibold mt-4 name-title">Shakib Al Hasan</h3>
+              <p class="text-sm mt-4 text-gray-600">150 Match <span>•</span> 5000 Runs </p>
+              <button class="bg-green-500 hover:bg-green-600 py-1 font-semibold text-white my-6 w-2/3 select-btn" id="select-btn">SELECT</button>
             </div>
-            <button class="bg-green-500 hover:bg-green-600 text-white w-full text-xl my-4 py-1 font-semibold">Calculate Total</button>
+          </div>
+          <!-- card 2 -->
+          <div class="border-2">
+            <div class="bg-white">
+              <img class="h-56" src="images/287.png" alt="">
+            </div>
+            <div class="text-center">
+              <h3 class="text-xl font-semibold mt-4 name-title">Tamim Iqbal</h3>
+              <p class="text-sm mt-4 text-gray-600">150 Match <span>•</span> 5000 Runs </p>
+              <button class="bg-green-500 hover:bg-green-600 py-1 font-semibold text-white my-6 w-2/3 select-btn">SELECT</button>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="border-2">
+            <div class="bg-white">
+              <img class="h-56" src="images/491.png" alt="">
+            </div>
+            <div class="text-center">
+              <h3 class="text-xl font-semibold mt-4 name-title">Mushfiqur Rahim</h3>
+              <p class="text-sm mt-4 text-gray-600">150 Match <span>•</span> 5000 Runs </p>
+              <button class="bg-green-500 hover:bg-green-600 py-1 font-semibold text-white my-6 w-2/3 select-btn">SELECT</button>
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div class="border-2">
+            <div class="bg-white">
+              <img class="h-56" src="images/492.png" alt="">
+            </div>
+            <div class="text-center">
+              <h3 class="text-xl font-semibold mt-4 name-title">Mahmudullah Riyad</h3>
+              <p class="text-sm mt-4 text-gray-600">150 Match <span>•</span> 5000 Runs </p>
+              <button class="bg-green-500 hover:bg-green-600 py-1 font-semibold text-white my-6 w-2/3 select-btn">SELECT</button>
+            </div>
+          </div>
+          <!-- card 5 -->
+          <div class="border-2">
+            <div class="bg-white">
+              <img class="h-56" src="images/1594.png" alt="">
+            </div>
+            <div class="text-center">
+              <h3 class="text-xl font-semibold mt-4 name-title">Mustafizur Rahman</h3>
+              <p class="text-sm mt-4 text-gray-600">150 Match <span>•</span> 5000 Runs </p>
+              <button class="bg-green-500 hover:bg-green-600 py-1 font-semibold text-white my-6 w-2/3 select-btn">SELECT</button>
+            </div>
+          </div>
+          <!-- card 6 -->
+          <div class="border-2">
+            <div class="bg-white">
+              <img class="h-56" src="images/1596.png" alt="">
+            </div>
+            <div class="text-center">
+              <h3 class="text-xl font-semibold mt-4 name-title">Liton Das</h3>
+              <p class="text-sm mt-4 text-gray-600">150 Match <span>•</span> 5000 Runs </p>
+              <button class="bg-green-500 hover:bg-green-600 py-1 font-semibold text-white my-6 w-2/3 select-btn">SELECT</button>
+            </div>
+          </div>
+        </div>
+  
+        <div class="w-3/12 p-4 flex flex-col">
+          <!-- selected 5 -->
+          <div class="bg-white p-4 mb-5">
+            <h3 class="text-2xl text-center font-semibold text-gray-700">Selected - V</h3>
+            <ol class="w-4/5 mx-auto text-lg font-semibold mt-8">
+              <li class="list-decimal my-2">Shakib Al Hasan</li>
+              <li class="list-decimal my-2">Shakib Al Hasan</li>
+              <li class="list-decimal my-2">Shakib Al Hasan</li>
+            </ol>
+          </div>
+          <!-- budget -->
+          <div class="bg-white p-4">
+            <h3 class="text-2xl text-center font-semibold text-gray-700">Budget</h3>
+            <div class="mt-8">
+              <label for="" class="w-2/5 float-left text-lg font-semibold text-gray-600">Per Player</label>
+              <input type="text" class="w-3/5 float-right	py-1 pl-2 border-2 border-gray-600">
+              <button class="bg-green-500 hover:bg-green-600 text-white w-full text-lg my-4 py-2 font-semibold">Calculate</button>
+            </div>
             <div>
-              <p class="float-left text-lg font-semibold text-gray-600">Total</p>
-              <p class="float-right text-lg font-semibold text-red-600">$ <span>0</span></p>
+              <p class="text-lg font-semibold text-gray-600 py-4">Player Expenses <span>$</span><span>0</span></p>
+              <div class="flex my-4">
+                <label for="" class="w-2/5 text-lg font-semibold text-gray-600">Manager</label>
+                <input type="text" class="w-3/5	py-1 pl-2 border-2 border-gray-600">
+              </div>
+              <div class="flex">
+                <label for="" class="w-2/5 text-lg font-semibold text-gray-600">Coach</label>
+                <input type="text" class="w-3/5	py-1 pl-2 border-2 border-gray-600">
+              </div>
+              <button class="bg-green-500 hover:bg-green-600 text-white w-full text-lg my-4 py-2 font-semibold">Calculate Total</button>
+              <div>
+                <p class="float-left text-lg font-semibold text-gray-600">Total</p>
+                <p class="float-right text-lg font-semibold text-red-600">$ <span>0</span></p>
+              </div>
             </div>
           </div>
         </div>
@@ -133,5 +139,14 @@
     <!-- card section end -->
   </main>
   <!-- main section end -->
+
+  <!-- footer start -->
+  <footer class="py-4">
+    <p class="text-md text-gray-600 text-center">Copyright &copy; 2022 All Rights Reserved by Bangla Tigers</p>
+  </footer>
+  <!-- footer end -->
+
+  <!-- external script files -->
+  <script src="js/select.js"></script>
 </body>
 </html>
