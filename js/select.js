@@ -1,15 +1,16 @@
+// function created
 function myFunction(btnElement, titleElement){
   const selectBtn = document.getElementById(btnElement);
   selectBtn.addEventListener('click', function clickF(){
     const nameTitle1 = document.getElementById(titleElement);
     const listItems = document.getElementById('list-items');
-
+// can not accept more than 5
   if(listItems.children.length < 5){
     const li = document.createElement('li');
     li.innerText = nameTitle1.innerText;
     li.classList.add('list-decimal', 'my-2');
     listItems.appendChild(li);
-
+    // button style added
     selectBtn.setAttribute('disabled', '');
     selectBtn.style.backgroundColor = 'gray';
     selectBtn.style.color = '#e8e8e8';
@@ -23,7 +24,7 @@ function myFunction(btnElement, titleElement){
   }
 })
 }
-
+// function call
 myFunction('select-btn-1', 'name-title-1');
 myFunction('select-btn-2', 'name-title-2');
 myFunction('select-btn-3', 'name-title-3');
