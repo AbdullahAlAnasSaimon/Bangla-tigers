@@ -2,12 +2,12 @@
 function myFunction(btnElement, titleElement){
   const selectBtn = document.getElementById(btnElement);
   selectBtn.addEventListener('click', function clickF(){
-    const nameTitle1 = document.getElementById(titleElement);
+    const nameTitles = document.getElementById(titleElement);
     const listItems = document.getElementById('list-items');
 // can not accept more than 5
   if(listItems.children.length < 5){
     const li = document.createElement('li');
-    li.innerText = nameTitle1.innerText;
+    li.innerText = nameTitles.innerText;
     li.classList.add('list-decimal', 'my-2');
     listItems.appendChild(li);
     // button style added
