@@ -15,3 +15,15 @@ function getInputValueById(elementID){
 
   return getExpenseInput;
 }
+
+document.getElementById('btn-calculate').addEventListener('click', function(){
+  const playerExpense = getInputValueById('player-expense-field');
+  const playerList = document.getElementById('list-items').children.length;
+  
+  const playerExpenseTotal = playerList * playerExpense;
+  
+  const getPlayerExpenses = document.getElementById('set-player-expenses');
+  getPlayerExpenses.innerText = playerExpenseTotal;
+  
+})
+
