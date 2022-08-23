@@ -96,6 +96,39 @@
               <button class="bg-green-500 hover:bg-green-600 py-1 font-semibold text-white my-6 w-2/3" id="select-btn-6">SELECT</button>
             </div>
           </div>
+          <!-- card 7 -->
+          <div class="border-2">
+            <div class="bg-white">
+              <img class="h-56" src="images/1135.png" alt="">
+            </div>
+            <div class="text-center">
+              <h3 class="text-xl font-semibold mt-4" id="name-title-7">Rubbel Hossain</h3>
+              <p class="text-sm mt-4 text-gray-600">150 Match <span>•</span> 5000 Runs </p>
+              <button class="bg-green-500 hover:bg-green-600 py-1 font-semibold text-white my-6 w-2/3" id="select-btn-7">SELECT</button>
+            </div>
+          </div>
+          <!-- card 8 -->
+          <div class="border-2">
+            <div class="bg-white">
+              <img class="h-56" src="images/1734.png" alt="">
+            </div>
+            <div class="text-center">
+              <h3 class="text-xl font-semibold mt-4" id="name-title-8">Sabbir Rahman</h3>
+              <p class="text-sm mt-4 text-gray-600">150 Match <span>•</span> 5000 Runs </p>
+              <button class="bg-green-500 hover:bg-green-600 py-1 font-semibold text-white my-6 w-2/3" id="select-btn-8">SELECT</button>
+            </div>
+          </div>
+          <!-- card 9 -->
+          <div class="border-2">
+            <div class="bg-white">
+              <img class="h-56" src="images/1597.png" alt="">
+            </div>
+            <div class="text-center">
+              <h3 class="text-xl font-semibold mt-4" id="name-title-9">Mehedi Hasan Miraz</h3>
+              <p class="text-sm mt-4 text-gray-600">150 Match <span>•</span> 5000 Runs </p>
+              <button class="bg-green-500 hover:bg-green-600 py-1 font-semibold text-white my-6 w-2/3" id="select-btn-9">SELECT</button>
+            </div>
+          </div>
         </div>
   
         <div class="w-3/12 p-4 flex flex-col">
@@ -106,28 +139,31 @@
             
             </ol>
           </div>
+
+
+          
           <!-- budget -->
           <div class="bg-white p-4">
             <h3 class="text-2xl text-center font-semibold text-gray-700">Budget</h3>
             <div class="mt-8">
               <label for="" class="w-2/5 float-left text-lg font-semibold text-gray-600">Per Player</label>
-              <input type="text" class="w-3/5 float-right	py-1 pl-2 border-2 border-gray-600">
-              <button class="bg-green-500 hover:bg-green-600 text-white w-full text-lg my-4 py-2 font-semibold">Calculate</button>
+              <input type="text" class="w-3/5 float-right	py-1 pl-2 border-2 border-gray-600" id="player-expense-field">
+              <button class="bg-green-500 hover:bg-green-600 text-white w-full text-lg my-4 py-2 font-semibold" id="btn-calculate">Calculate</button>
             </div>
             <div>
-              <p class="text-lg font-semibold text-gray-600 py-4">Player Expenses <span>$</span><span>0</span></p>
+              <p class="text-lg font-semibold text-gray-600 py-4">Player Expenses <span class="ml-4 text-slate-700">$</span><span id="set-player-expenses">0</span></p>
               <div class="flex my-4">
                 <label for="" class="w-2/5 text-lg font-semibold text-gray-600">Manager</label>
-                <input type="text" class="w-3/5	py-1 pl-2 border-2 border-gray-600">
+                <input type="text" class="w-3/5	py-1 pl-2 border-2 border-gray-600" id="manager-cost-input">
               </div>
               <div class="flex">
                 <label for="" class="w-2/5 text-lg font-semibold text-gray-600">Coach</label>
-                <input type="text" class="w-3/5	py-1 pl-2 border-2 border-gray-600">
+                <input type="text" class="w-3/5	py-1 pl-2 border-2 border-gray-600" id="coach-cost-input">
               </div>
-              <button class="bg-green-500 hover:bg-green-600 text-white w-full text-lg my-4 py-2 font-semibold">Calculate Total</button>
+              <button class="bg-green-500 hover:bg-green-600 text-white w-full text-lg my-4 py-2 font-semibold" id="calculate-total">Calculate Total</button>
               <div>
                 <p class="float-left text-lg font-semibold text-gray-600">Total</p>
-                <p class="float-right text-lg font-semibold text-red-600">$ <span>0</span></p>
+                <p class="float-right text-lg font-semibold text-red-600">$ <span id="sub-total">0</span></p>
               </div>
             </div>
           </div>
@@ -146,5 +182,6 @@
 
   <!-- external script files -->
   <script src="js/select.js"></script>
+  <script src="js/calculate.js"></script>
 </body>
 </html>
